@@ -1,0 +1,96 @@
+# ############################################################################
+# ## .gitignore GERADO PARA UM NOVO PROJETO                                 ##
+# ## Este arquivo especifica arquivos e pastas que o Git deve ignorar.      ##
+# ## Manter este arquivo atualizado é crucial para a saúde do repositório.   ##
+# ############################################################################
+
+# Arquivos de Dependências e Pacotes
+# As dependências devem ser instaladas via gerenciadores de pacotes (npm, yarn, pip, composer, etc.)
+# e não devem ser incluídas no repositório.
+/node_modules/
+/vendor/
+/bower_components/
+
+# Arquivos de Build e Produção
+# Arquivos gerados automaticamente pelo processo de build/compilação.
+/dist/
+/build/
+/public/build/
+/out/
+/.tmp/
+
+# Logs
+# Arquivos de log podem conter informações sensíveis e crescer muito em tamanho.
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos de Ambiente
+# NUNCA versione arquivos de ambiente. Eles contêm segredos e configurações locais.
+# É uma boa prática versionar um arquivo de exemplo.
+.env
+.env.local
+.env.*.local
+# Descomente a linha abaixo se você usa um arquivo de exemplo para as variáveis de ambiente
+#!.env.example
+
+# Arquivos de Configuração de IDEs e Editores
+# As configurações de ambiente de desenvolvimento são específicas de cada desenvolvedor.
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.settings/
+
+# Arquivos de Sistema Operacional
+# Arquivos de metadados gerados por diferentes sistemas operacionais.
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# Testes e Cobertura de Código
+# Relatórios e artefatos gerados pela execução de testes.
+/coverage/
+.nyc_output/
+junit.xml
+
+# Arquivos de Cache e Temporários
+# Arquivos temporários gerados por diversas ferramentas.
+.cache/
+*.tmp
+*.swp
+*.swo
+
+# Arquivos de Banco de Dados Locais
+# Bancos de dados de desenvolvimento não devem ser versionados.
+*.sqlite
+*.sqlite3
+*.db
+
+# Arquivos compactados
+# Geralmente são backups ou distribuições que não pertencem ao controle de versão.
+*.zip
+*.tar.gz
+*.rar
