@@ -39,6 +39,7 @@ yarn-error.log*
 # Arquivos de Configuração de IDEs e Editores
 # As configurações de ambiente de desenvolvimento são específicas de cada desenvolvedor.
 .idea/
+.vscode/
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
